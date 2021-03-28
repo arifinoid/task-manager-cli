@@ -3,8 +3,10 @@
 ### How To Use
 
 1. Install the dependencies `npm i`
-2. Run `npm dev`
-3. Then you can type `efishery-cli` everywhere in your local machine
+2. Create `.env` file and add env variables based on env.example
+3. Type `source .env` in terminal and make sure you're on current directory
+4. Run `npm run dev`
+5. Then you can type `efishery-cli` everywhere in your local machine
 
 ### Commands
 
