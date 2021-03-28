@@ -1,4 +1,4 @@
-import { PouchyStore } from "pouchy-store";
+import { PouchyStore } from "fajri-pouchy-store";
 import config, { ICouchDB } from "../config";
 
 export default class TaskStore extends PouchyStore {

@@ -23,9 +23,11 @@
     "figlet": "^1.5.0",
     "inquirer": "^8.0.0",
     "ora": "^5.4.0",
-    "pouchy-store": "^0.1.7"
+    "fajri-pouchy-store": "^1.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
     "@types/figlet": "^1.2.1",
     "@types/inquirer": "^7.3.1",
     "@types/node": "^14.14.37",
