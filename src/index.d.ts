@@ -1,1 +1,1 @@
-declare module "pouchy-store";
+declare module "fajri-pouchy-store";

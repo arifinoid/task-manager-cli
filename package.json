@@ -6,7 +6,6 @@
   "author": "Rohmad Arifin",
   "license": "MIT",
   "bin": "./dist/bin/index.js",
-  "type": "module",
   "scripts": {
     "start": "npm link",
     "build": "rm -rf ./dist && tsc -p .",

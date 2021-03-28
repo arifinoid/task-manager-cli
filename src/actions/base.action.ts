@@ -1,5 +1,5 @@
 import commander from "commander";
-import TaskStore from "../models/task";
+import { TaskStore } from "../models";
 
 export default class BaseAction {
   program: any;

@@ -22,6 +22,7 @@ class Main {
       .version(config.version!, "-v, --version")
       .description(generateMessage("eFishery - Task Manager CLI"));
 
+    this.commands.registerAction();
     this.commands.availableCommands.map((command: Command) =>
       this.registerCommand(command)
     );
