@@ -19,7 +19,7 @@ class Main {
 
   async start() {
     this.program
-      .version(config.version!, "-v, --version")
+      .version(config.version, "-v, --version")
       .description(generateMessage("eFishery - Task Manager CLI"));
 
     this.commands.registerAction();

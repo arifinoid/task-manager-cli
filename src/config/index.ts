@@ -16,5 +16,5 @@ export default {
     username: process.env.DB_USERNAME || "bukanadmin",
     password: process.env.DB_PASSWORD || "password",
   },
-  version: process.env.VERSION,
+  version: '1.0.0',
 };
